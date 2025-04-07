@@ -8,8 +8,6 @@ Pulumi Playground is a **terminal-based interactive tool** that lets you spin up
 Pick from dozens of official Pulumi templates or load your own config file.  
 Perfect for **learning**, **rapid prototyping**, or just having **fun with Infrastructure as Code**.
 
----
-
 ## 🌟 Features
 
 - 🎛️ **Interactive CLI experience** with menus and shortcuts
@@ -18,8 +16,6 @@ Perfect for **learning**, **rapid prototyping**, or just having **fun with Infra
 - 🚀 Deploy in seconds with no boilerplate
 - 🧹 Automatic cleanup after 5 minutes (keep your bills — and your clouds — tidy)
 - 🐤 **Adorable branding** — because the cloud doesn’t have to be boring
-
----
 
 ## 📁 Project Structure
 
@@ -32,8 +28,6 @@ Perfect for **learning**, **rapid prototyping**, or just having **fun with Infra
 ├── types/
 └── index.ts             # App entry point
 ```
-
----
 
 ## 🚀 Getting Started
 
@@ -48,8 +42,6 @@ Perfect for **learning**, **rapid prototyping**, or just having **fun with Infra
 pulumi login
 ```
 
----
-
 ### 3. Run the Playground
 
 ```bash
@@ -59,8 +51,6 @@ npm install
 # Run the app
 npm start
 ```
-
----
 
 ## 🧪 Usage
 
@@ -79,8 +69,6 @@ npm start
 > And voilà! Your playground is ready to go — your Pulumi stack is deployed, isolated, and temporary.  
 > By default, it will self-destruct in 5 minutes. Just like a sandcastle at sunset 🌅
 
----
-
 ## 🤝 Contributing
 
 We love new ideas, cute puns, and cloud magic.  
@@ -89,12 +77,8 @@ Or maybe you just wanna make the chick more fashionable?
 
 **Let’s hatch something great — together.** 🐣✨
 
----
-
 ## 📜 License
 
 MIT License – see the [LICENSE](LICENSE) file for details.
-
----
 
 **Made with ☁️ & ❤️ by a yellow chick**
