@@ -13,8 +13,8 @@ export async function chooseRunMode(): Promise<RunMode> {
       name: "mode",
       message: "👉 How do you want to run your playground?",
       choices: [
-        { name: "☄️  Load from config file (JSON/YAML)", value: "file" },
-        { name: "🪐  Choose a template", value: "template" },
+        { name: "☄️ Load from config file (JSON/YAML)", value: "file" },
+        { name: "🪐 Choose a template", value: "template" },
       ],
     },
   ]);
