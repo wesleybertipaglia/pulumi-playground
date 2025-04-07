@@ -6,7 +6,10 @@ export async function chooseTemplate(): Promise<string> {
       type: "list",
       name: "template",
       message: "🧱 Choose a template:",
-      choices: [{ name: "AWS S3 Bucket", value: "s3" }],
+      choices: [
+        { name: "AWS S3 Bucket", value: "aws_s3" },
+        { name: "AWS EC2", value: "aws_ec2" },
+      ],
     },
   ]);
 
