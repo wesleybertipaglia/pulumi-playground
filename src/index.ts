@@ -1,7 +1,14 @@
-import { chooseTemplate } from "./prompts";
-import { runPlaygroundStack } from "./playground";
+import { chooseRunMode, chooseTemplate, chooseFile } from "./prompts";
+import { runPlaygroundStack, runFromFile } from "./playground";
 
 (async () => {
-  const template = await chooseTemplate();
-  await runPlaygroundStack(template);
+  const mode = await chooseRunMode();
+
+  if (mode === "template") {
+    const template = await chooseTemplate();
+    await runPlaygroundStack(template);
+  } else {
+    const filePath = await chooseFile();
+    await runFromFile(filePath);
+  }
 })();
