@@ -8,7 +8,7 @@ export async function chooseFile(): Promise<string> {
       message: "📂 Enter the path to the config file:",
       validate: (input) => {
         if (!input) {
-          return "Please enter a valid path.";
+          return "⚠️ Please enter a valid path.";
         }
         return true;
       },
